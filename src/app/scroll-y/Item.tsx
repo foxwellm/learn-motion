@@ -19,7 +19,7 @@ export default function Item({ ref }: { ref: RefObject<HTMLDivElement | null> })
 
   return (
     <section ref={innerRef} style={itemContainer}>
-      <motion.div whileInView={{ opacity: 0.3 }} style={item}>
+      <motion.div style={item}>
         <div className=" top-4 left-4 p-2 bg-black/50 rounded text-white">
           Scroll Progress: {(progress * 100).toFixed(1)}%
         </div>
