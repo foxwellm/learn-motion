@@ -68,7 +68,6 @@ export default function Home() {
         <Item ref={scrollRef} />
         <Item ref={scrollRef} />
         <Item ref={scrollRef} />
-
       </div>
     </main>
   );
